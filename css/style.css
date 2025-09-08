@@ -1,0 +1,222 @@
+/* All Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0,8;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* All Common Css End */
+
+/* Top Header Part Start */
+
+#topHeader{
+    padding: 20px 0;
+    background: #20282D;
+}
+.topHeaderContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forHover:hover{
+    border-bottom: 1px solid #fff;
+    transform: .4s;
+}
+.tContentLeft a {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.tContentLeft a i {
+    padding-right: 5px;
+}
+.tContentLeft a span{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tContentRight ul {
+display:flex;
+column-gap: 10px;
+}
+.tContentRight ul li a {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}.tContentRight ul li span{
+color: #fff;
+padding: 0 10px;
+}
+
+
+/* Top Header Part End */
+
+
+/*  Header Part Start */
+
+#headerPart{
+ padding: 25px 0;
+}
+.headerFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 10px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color:#1c2539;
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 400;
+    margin: 0 25px;
+    line-height: 70px;
+}
+.iconBtn{
+    padding-top: 5px;
+    
+}
+.iconBtn a {
+    background: #F2F2F2;
+    border-radius: 10px;
+    padding: 20px;
+    color:#1c2539;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    margin-right: 15px;
+}.quote{
+    background:#1c2539!important ;
+    color: #F2F2F2 !important;
+}
+
+/*  Header Part End */
+
+/* banner Part Start */
+#bannerpart{
+    padding-top: 280px;
+    padding-bottom: 270px;
+    background:url(../images/21.webp);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
+}.bannerContent{
+    text-align: center;
+    color:#fff
+
+}
+.bannerContent h4{
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+     font-family: "Red Hat Display", sans-serif;
+}
+.bannerContent h4 span {
+    font-weight: 500;
+}
+.bannerContent h1 {
+    font-size: 70px;
+    font-weight: 700px;
+     font-family: "Red Hat Display", sans-serif;
+     width: 700px;
+     margin: 0 auto;
+     padding-top: 50px;
+     padding-bottom: 40px;
+     line-height: 85px;
+}
+.bannerContent p{
+    width: 578px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    line-height: 26px;
+}.bannerContent a{
+    margin-top: 50px;
+    padding: 25px 40px;
+    border-radius: 20px;
+    background: #fff;
+    color: #1c2539;
+}
+
+/*  banner Part End */
+
+/* About Part Start */
+#aboutpart{
+    padding: 100px 0;
+}
+.aboutFlex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.aboutLeft{
+    width:50%;
+
+}
+.aboutLeft img{
+    width:100%
+}
+.aboutRight{
+    width:60%;
+    padding-left: 130px;
+}
+.aboutRight h4{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600; 
+    color:#000;
+    text-transform: uppercase;
+}
+.aboutRight h3{
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+   font-size: 36px;
+    text-transform: capitalize;
+    padding-right: 38px;
+    line-height: 48px;
+    color: #1c2539;
+    
+}
+.aboutRight p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400; 
+    color:#000;
+    line-height: 26px;
+    color: #5d666f;
+}
+.aboutRight ul li i{
+    padding-right: 5px;
+}
+.aboutRight ul li{
+    padding-bottom: 15px;
+}
+
+/*  About Part End */
+
+/* Header Part Start */
+
+/*  Header Part End */
